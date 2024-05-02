@@ -1,0 +1,76 @@
+{
+  "data": [
+    {
+      "id": 1000,
+      "content": "Product-detail UI tasarımı yapılmalı.",
+      "type": "Mobile Developer",
+      "isCompleted": true,
+      "representative": [
+        {
+          "name": "Ioni Bowcher",
+          "image": "user2.png"
+        }
+      ]
+    },
+    {
+      "id": 1001,
+      "content": "Customer Detail sayfasının UI tasarımlarının koda aktarılması.\n",
+      "type": "Front-end Developer",
+      "isCompleted": true,
+      "representative": [
+        {
+          "name": "Anna Fali",
+          "image": "user3.png"
+        }
+      ]
+    },
+    {
+      "id": 1002,
+      "content": "ProductList Sayfasının servislerinin tamamlanması.",
+      "type": "Back-end Developer",
+      "isCompleted": false,
+      "representative": [
+        {
+          "name": "Elwin Sharvill",
+          "image": "user1.png"
+        }
+      ]
+    },
+    {
+      "id": 1003,
+      "content": "Spring Security hakkında derinlemesine araştırma.",
+      "type": "Back-end Developer",
+      "isCompleted": true,
+      "representative": [
+        {
+          "name": "Bernardo Dominic",
+          "image": "user4.png"
+        }
+      ]
+    },
+    {
+      "content": "ProductList sayfa tasarımlarının koda dökülmesi.",
+      "type": "Front-end Developer",
+      "isCompleted": false,
+      "representative": [
+        {
+          "name": "Anna Fali",
+          "image": "user3.png"
+        }
+      ],
+      "id": 1004
+    },
+    {
+      "content": "Shipment Service API'lerin bağlanması.",
+      "type": "Back-end Developer",
+      "isCompleted": false,
+      "representative": [
+        {
+          "name": "Anna Fali",
+          "image": "user1.png"
+        }
+      ],
+      "id": 1005
+    }
+  ]
+}
