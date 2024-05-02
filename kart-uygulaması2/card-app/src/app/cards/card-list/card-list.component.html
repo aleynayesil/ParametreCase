@@ -1,0 +1,9 @@
+
+<div class="card container">
+    <p-toast></p-toast>
+    <h1>Card App</h1>
+    <button pButton pRipple label="Ekle" icon="pi pi-plus" class="p-button-success p-mr-2" routerLink="create"></button>
+    <div class="flex flex-wrap justify-content-between">
+        <app-card *ngFor="let product of products let i index" [product]="product" (deleteEvent)="deleteCard(product)"></app-card>
+    </div>
+</div>
