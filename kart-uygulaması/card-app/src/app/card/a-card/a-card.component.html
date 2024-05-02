@@ -1,0 +1,6 @@
+<p-card header="{{this.cards[0].name}}" subheader="{{cards[0].title}}" [style]="{'max-width': '20rem'}" styleClass="p-card-shadow p-2 mt-5">
+    <ng-template pTemplate="header">
+        <img alt="Card" src="../../../assets/images/{{cards[0].imgUrl}}">
+    </ng-template>
+    <p [style]="{height:'5rem'}">{{cards[0].description}}</p>
+</p-card>

@@ -1,0 +1,30 @@
+:root {
+    --bg-primary:#ECCC64;
+    --bg-card:#FCE8CD;
+    --btn-primary:#0F826D;
+    --btn-secondary:#FCBBB5;
+}
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    height: 100vh;
+}
+.container {
+    width: 100%;
+    max-width: 1260px;
+    height: 100%;
+    margin: 0 auto;
+}
+.bg-base{
+    background: var(--bg-primary);
+}

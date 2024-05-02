@@ -1,0 +1,45 @@
+{
+  "cards":[
+    {
+      "id":1,
+      "name":"Ölüm Kartı",
+      "description":"Ölüm kartı herhangi bir kişinin gerçek anlamda ölümüyle ilgili değildir. Bir proje, plan veya ilişki gibi başka bir şeyin ölümünü temsil edebilir.", 
+      "imgUrl":"death.png",
+      "isActive":true,
+      "no":13,
+      "title":"The Death"
+  },{
+    "id":2,
+    "name":"İmparator Kart",
+    "description":"En pratik anlamda İmparator Tarot kartı, en yüksek liderliği, bir devlet başkanını veya diyardaki en örnek ve güçlü kişiyi temsil eder.",
+    "imgUrl":"theemperor.png",
+    "isActive":true,
+    "no":2,
+    "title":"The Emperor"
+  },{
+    "id":3,
+    "name":"Baş Rahibe Kartı",
+    "description":"Baş Rahibe, bir tür dişi Papa (bir Papess) veya eski Mısırlı İsis Rahibesi, daha da eski yılan ve kuş tanrıçaları, Yunan tanrıçası Persephone veya düşüşten önceki Havva olarak görülebilir.",
+    "imgUrl":"thehighpriestess.png",
+    "isActive":true,
+    "no":13,
+    "title":"The High Priedtess"
+  },{
+    "id":4,
+    "name":"Yıldız Kartı",
+    "description":"Yıldız Tarot kartı, kişinin ruhunu ilahi olanla yeniden bağlantılandırması, kişiliğin, ailenin, topluluğun ve itibarın aşılmasıyla ilgilidir.",
+    "imgUrl":"thestar.png",
+    "isActive":true,
+    "no":17,
+    "title":"The Star"
+  },{
+    "id":5,
+    "name":"Kule Kart",
+    "description":"Kule kartının hemen hemen tüm versiyonlarında, felaket çarpıcıdır ya da henüz yeni gelmiştir.",
+    "imgUrl":"thetower.png",
+    "isActive":true,
+    "no":16,
+    "title":"The Tower"
+    }
+  ]}
+  
