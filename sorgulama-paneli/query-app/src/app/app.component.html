@@ -1,0 +1,45 @@
+<div class="container" [style]="{'padding':'10px','border-radius':'20px','box-shadow':'0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}">
+  <h5>Addons</h5>
+  <div class="grid p-fluid">
+    <div class="field col-12 md:col-4">
+      <span class="p-float-label">
+          <input type="text" id="inputtext" pInputText #where> 
+          <label for="inputtext">Where</label>
+      </span>
+    </div>
+    <div class="field col-12 md:col-4">
+      <span class="p-float-label">
+        <input type="text" id="inputtext" pInputText #outFields> 
+        <label for="textarea">Out Fields:</label>
+      </span>
+    </div>
+    <div class="field col-12 md:col-4">
+      <span class="p-float-label">
+        <input type="number" id="inputtext" pInputText #distance> 
+        <label for="inputtext">Distance</label> 
+      </span>
+    </div>
+    <div class="field col-12 md:col-4">
+      <span class="p-float-label">
+        <p-dropdown
+        inputId="dropdown"
+        [autoDisplayFirst]="false"
+        [options]="units"
+        [(ngModel)]="value1"
+        optionLabel="name"
+      ></p-dropdown>
+      <label for="dropdown">Units</label>  
+      </span>
+    </div>
+    <div class="field grid col-12 md:col-4">
+      <label class="px-2" for="binary">Return Geometry:</label> 
+      <div class="p-field-checkbox p-2">
+        <p-checkbox [(ngModel)]="checked" [binary]="true" inputId="binary"></p-checkbox>
+        <label class="px-2" for="binary">{{checked}}</label>
+      </div>
+    </div>
+  </div>
+  <div class="field grid col-12 md:col-4">
+    <button [style]="{'width':'150px'}" pButton type="button" label="Primary" class="p-button-outlined p-float" (click)="getQuery(where,outFields,distance,value1,checked)"></button>
+  </div>
+</div>
