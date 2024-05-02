@@ -1,0 +1,13 @@
+Tüm db işlemleri için Json Web Server kullanılmıştır. Çalıştırılmadan önce server klasörü içerisine gidip
+json-server --watch db.json komutu çalıştırılmalı.
+
+Görev yöneticisi uygulaması içerisinde yeni görev ekleme , görev silme, görevi onaylandıya çekme gibi 
+işlemler tamamlanmıştır. Onun dışında onaylanan görevlerin yüzdeside gösterilmekte.Eğer istenilirse her
+görev için 1 den fazla kişi seçilebilir.
+
+Kart uygulamasında 5 adet tarot kartı içinden 3 adet rastgele tarot kartı ekrana yansımakta. 
+İstenildiği gibi her kart için ayrı componentler oluşturuldu.
+
+Diğer kart uygulamasında ürünler listelenmekte. Yeni ürün kaydı yapılabilir aynı zamanda ürün silinebilir.
+
+Sorgulama paneli uygulamasında sorgu başarılı bir şekilde gönderildi. Ancak çıktı dom a yansıtılamadı.
